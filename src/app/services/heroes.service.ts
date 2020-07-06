@@ -72,7 +72,7 @@ export class HeroesService {
   }
 
   getHeroe(idx: string) {
-    this.heroes[idx];
+    return this.heroes[idx]; 
   }
 }
 

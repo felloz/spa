@@ -1,15 +1,15 @@
-<h1>Nombre del Heroe <small>fecha de aparicion</small></h1>
+<h1>{{ heroe.nombre }} <small>{{ heroe.aparicion }}</small></h1>
 
 <div class="row">
     <div class="col-md-4">
-        <img src="assets/img/hulk.png" class="img-fluid" alt="">
+        <img [src]="heroe.img" class="img-fluid" alt="">
         <br><br>
         <a href="heroes" class="btn btn-outline-danger btn-block">Regresar</a>
     </div>
     <div class="col-md-8">
-        <h3>Nombre heroe</h3>
+        <h3>{{ heroe.nombre }}</h3>
         <hr>
-        <p>bio del heroe</p>
+        <p>{{heroe.bio}}</p>
     </div>
     <div>
         <img src="marvelodc" alt="">
